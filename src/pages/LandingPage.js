@@ -24,6 +24,8 @@ import Emailicon from '../assets/email-icon.png'
 import Facebookicon from '../assets/facebook-icon.png'
 import Twittericon from '../assets/twitter-icon.png'
 import Instagramicon from '../assets/instagram-icon.png'
+import Logo from '../assets/logo.png';
+
 import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
