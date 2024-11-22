@@ -50,7 +50,9 @@ const Login = () => {
   return (
     <div className="login-reg-container">
     <div className="logo-container">
-      <a href=""><img src={Logo} alt="Homify Logo" className="logo" /></a>
+      <Link to='/'>
+      <a href="./LandingPage.js"><img src={Logo} alt="Homify Logo" className="logo" /></a>
+      </Link>
     </div>
     <div className="content-wrapper">
       <h2>Simplify house hunting today.</h2>
