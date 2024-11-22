@@ -74,7 +74,8 @@ const Login = () => {
           <div className="forgot-password">
             <a href="#" id="forgotPassword">Forgot Password?</a>
           </div>
-          <button  type="submit" id="sign-in">Sign In</button>
+          <Link to='/dashbaord'><button  type="submit" id="sign-in">Sign In</button></Link>
+          
           <div className="or-divider">
             <span>OR</span>
           </div>

@@ -108,6 +108,7 @@ const Register = () => {
               <option value="agent">Agent</option>
             </select>
           </div>
+          <Link to='/dashbaord'></Link>
           <button type="submit" id="register-btn">Register</button>
           <div className="social-login">
             <button type="button" className="social-btn google-btn">Register with Google</button>

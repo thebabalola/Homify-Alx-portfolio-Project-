@@ -16,7 +16,7 @@ const DashboardHeader = () => {
     <header>
 
         <nav className="homify-nav" id="nav-bar">
-            <Link to='/dashboard'>
+            <Link to='/'>
               <a href=""><img className="logo" src={Logo} alt="Homify Logo" /></a>
             </Link>
 
