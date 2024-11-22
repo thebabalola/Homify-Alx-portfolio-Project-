@@ -68,8 +68,8 @@ const Register = () => {
   return (
     <div className="login-reg-container">
     <div className="logo-container">
-      <Link to='/'>
-        <img src={Logo} alt="Homify Logo" className="logo" />
+    <Link to='/'>
+      <a href="./LandingPage.js"><img src={Logo} alt="Homify Logo" className="logo" /></a>
       </Link>
     </div>
     <div className="content-wrapper">

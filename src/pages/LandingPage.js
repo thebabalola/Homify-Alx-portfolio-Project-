@@ -321,7 +321,8 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div class="loadmore">
-                    <p><a href="../pages/Dashboard.js">Load More...</a></p>
+                    
+                    <p><a href="../pages/Dashboard.js"><Link to='/dashboard'>Load More...</Link></a></p>
                 </div>
             </div>
 
